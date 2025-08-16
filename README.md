@@ -15,4 +15,23 @@ Backend/AI: Hugging Face Transformers (bert-tiny-finetuned-sms-spam-detection)
 
 Language: Python
 
+**How to Run**
+
+**1.Clone the repository**
+git clone https://github.com/your-username/email-spam-detector.git
+cd email-spam-detector
+
+**2.Create a virtual environment (optional but recommended)**
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+
+**3.Install dependencies**
+pip install -r requirements.txt
+
+**4.Run the app**
+streamlit run app.py
+
+**5.Open in browser**
+Go to  http://localhost:8501
 

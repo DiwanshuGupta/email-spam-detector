@@ -40,6 +40,7 @@ streamlit run app.py
 Go to  http://localhost:8501
 
 **Requirements**
+
 streamlit
 
 transformers

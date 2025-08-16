@@ -3,6 +3,8 @@ The Email Spam Detector is a lightweight AI-powered web app that classifies emai
 Users can paste the content of any email into the app, and the system analyzes it in real-time, providing:
 
 **Prediction**: Spam / Not Spam
+
+
 **Confidence Score**: How confident the model is in its decision
 
 The app is built with Streamlit for an interactive UI and integrates Hugging Face’s pre-trained spam detection models for fast, accurate results.
@@ -18,7 +20,9 @@ Language: Python
 **How to Run**
 
 **1.Clone the repository**:
+
 git clone https://github.com/your-username/email-spam-detector.git
+
 cd email-spam-detector
 
 **2.Create a virtual environment (optional but recommended)**:
@@ -34,4 +38,14 @@ streamlit run app.py
 
 **5.Open in browser**
 Go to  http://localhost:8501
+
+**Requirements**
+streamlit
+
+transformers
+
+torch
+
+Pillow
+
 
